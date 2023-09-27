@@ -1,0 +1,4 @@
+megs: 32
+boot: disk
+floppya: 1_44=boot.img, status=inserted
+log: bochsout.txt

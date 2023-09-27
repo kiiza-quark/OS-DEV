@@ -1,0 +1,21 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Assemble Boot Sector",
+            "type": "shell",
+            "command": "nasm",
+            "args": [
+                "-f",
+                "bin",
+                "boot_sect.asm",
+                "-o",
+                "boot_sect.bin"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
